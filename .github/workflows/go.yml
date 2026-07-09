@@ -50,8 +50,8 @@ jobs:
       - name: push generated file
         run: |
           d=$(date +"%Y-%m-%d")
-          git config --global user.name 'Depa Panjie Purnama'
-          git config --global user.email 'depapp@users.noreply.github.com'
+          git config --global user.name 'Theo Browne'
+          git config --global user.email 't3dotgg@users.noreply.github.com'
           git pull
           ls -al
           git add indogithubers.json
